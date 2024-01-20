@@ -34,7 +34,7 @@ cat sample | ./max > ans
 ![test](https://github.com/MotokiTatsuhiko/robosys2023/actions/workflows/test.yml/badge.svg)
 
 ##ライセンス
-SPDX-FileCopyrightText: 2023 Subhiko Motoki <s19c1115em@s.chibakoudai.jp>
+SPDX-FileCopyrightText: 2023 Tatsuhiko Motoki <s19c1115em@s.chibakoudai.jp>
 SPDX-License-Identifier: BSD-3-Clause
 
 © 2023 Tatsuhiko Motoki
