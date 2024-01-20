@@ -11,11 +11,13 @@ def tonum(s):
     except:
         return float(s)
 
-
-max = 0
+max = ''
 for line in sys.stdin:
     line = line.rstrip()
-    if max < tonum(line):
+    if max == '':
+        max = tonum(line)
+
+    elif max < tonum(line):
         max = tonum(line)
         
 print(max)

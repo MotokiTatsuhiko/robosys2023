@@ -16,7 +16,8 @@ out=$(seq 5 | ./max)
 out=$(seq -f "%0.2f" 1 0.1 2 | ./max)
 [ "${out}" = 2.0 ] || ng ${LINENO}
 
-
+out=$(seq -10 -1 | ./max)
+[ "${out}" = -1 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
