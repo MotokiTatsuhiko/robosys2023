@@ -9,11 +9,11 @@
 このリポジトリをpython3が導入されているUbuntu上に保存してください。
 robosys2023をカレントディレクトリとして各コマンドを利用してください。
 
-*pulsコマンド使用例
+* pulsコマンド使用例
 入力ファイルsampleの合計をansに出力するには
 cat sample | ./plus > ans
 
-*maxコマンド使用例
+* maxコマンド使用例
 入力ファイルsampleの中の最大値をansに出力するには
 cat sample | ./max > ans
 
