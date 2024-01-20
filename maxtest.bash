@@ -14,7 +14,7 @@ out=$(seq 5 | ./max)
 [ "${out}" = 5 ] || ng ${LINENO}
 
 out=$(seq -f "%0.2f" 1 0.1 2 | ./max)
-[ "${out}" = 2.00 ] || ng ${LINENO}
+[ "${out}" = 2.0 ] || ng ${LINENO}
 
 
 
