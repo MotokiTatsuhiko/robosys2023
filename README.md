@@ -26,10 +26,12 @@ cat sample | ./max > ans
 1.1  
 ##必要なソフトウェア  
 * Python  
-  *テスト済み: 3.7 ~ 3.10  
+  * テスト済み: 3.7 ~ 3.10  
 
+* Ubuntu
+  * 動作確認済み: Ubuntu22.04.3LTS
 ##テスト環境  
-* Ubuntu  
+* Ubuntu22.04.3  
 
 ![test](https://github.com/MotokiTatsuhiko/robosys2023/actions/workflows/test.yml/badge.svg)  
 
