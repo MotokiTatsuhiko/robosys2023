@@ -29,7 +29,8 @@ cat sample | ./max > ans
   * テスト済み: 3.7 ~ 3.10  
 
 * Ubuntu  
-  * 動作確認済み: Ubuntu22.04.3LTS  
+  * 動作確認済み: Ubuntu22.04.3LTS   
+
 ##テスト環境  
 * Ubuntu22.04.3  
 
