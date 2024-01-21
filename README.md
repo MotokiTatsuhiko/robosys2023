@@ -28,8 +28,8 @@ cat sample | ./max > ans
 * Python  
   * テスト済み: 3.7 ~ 3.10  
 
-* Ubuntu
-  * 動作確認済み: Ubuntu22.04.3LTS
+* Ubuntu  
+  * 動作確認済み: Ubuntu22.04.3LTS  
 ##テスト環境  
 * Ubuntu22.04.3  
 
